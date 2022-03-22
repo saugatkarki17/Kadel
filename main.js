@@ -209,7 +209,7 @@ fourAdd();
 
 
 
-forTotal();
+
 //for disc
 
 var dis = document.querySelector('.dis');
@@ -260,20 +260,20 @@ pay.addEventListener('click', () => {
        
        if(dis.value == "qtpie"){
               okp.innerHTML = "Discount applied !!";
-              okpt.innerHTML = "Your total :" ;
+              okpt.innerHTML = "Your total : $ 49" ;
 
               
        }
        else if(dis.value == "") {
               okp.innerHTML = "No code used";
-              okpt.innerHTML = "Your total : 1000 ";
+              okpt.innerHTML = "Your total : $ 69 ";
 
               okp.style.color = "grey";
 
        }
        else{
               okp.innerHTML = "Wrong code !!"
-              okpt.innerHTML = "Your total : 1000 ";
+              okpt.innerHTML = "Your total : $ 69 ";
               okp.style.color = "red";
 
        }  
